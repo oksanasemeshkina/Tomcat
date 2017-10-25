@@ -7,5 +7,7 @@ Blue packages are important
 ## Architecture Overview
 ![Architecture Overview](tomcat6.png)
 
+[Class and interface descriptions](Tomcat 6.0.53 Architecture.pdf)
+
 # Misc
 [Server Startup](serverStartup.pdf)
