@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="1" name="org.apache.catalina.tribes.test.channel.TestDataIntegrity" time="163.534" errors="0" skipped="0">
+<testsuite tests="5" failures="1" name="org.apache.catalina.tribes.test.channel.TestDataIntegrity" time="173.514" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/dustin/Java/jdk1.8.0_151/jre/lib/i386"/>
@@ -61,8 +61,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.catalina.tribes.test.channel.TestDataIntegrity" name="testDataSendASYNCM" time="46.551">
-    <failure message="Checking success messages. expected:&lt;10000&gt; but was:&lt;9409&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Checking success messages. expected:&lt;10000&gt; but was:&lt;9409&gt;
+  <testcase classname="org.apache.catalina.tribes.test.channel.TestDataIntegrity" name="testDataSendASYNCM" time="52.414">
+    <failure message="Checking success messages. expected:&lt;10000&gt; but was:&lt;9270&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Checking success messages. expected:&lt;10000&gt; but was:&lt;9270&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:743)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -100,53 +100,53 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
-    <system-out>Thread[Thread-855] sent 500 messages in 16793 ms.
-Thread[Thread-853] sent 500 messages in 17913 ms.
-Thread[Thread-851] sent 500 messages in 17934 ms.
-Thread[Thread-854] sent 500 messages in 18348 ms.
-Thread[Thread-852] sent 500 messages in 18463 ms.
-Thread[Thread-840] sent 500 messages in 19425 ms.
-Thread[Thread-847] sent 500 messages in 19586 ms.
-Thread[Thread-839] sent 500 messages in 20432 ms.
-Thread[Thread-838] sent 500 messages in 21274 ms.
-Thread[Thread-837] sent 500 messages in 22473 ms.
-Thread[Thread-849] sent 500 messages in 22414 ms.
-Thread[Thread-850] sent 500 messages in 22502 ms.
-Thread[Thread-842] sent 500 messages in 22565 ms.
-Thread[Thread-846] sent 500 messages in 22950 ms.
-Thread[Thread-845] sent 500 messages in 23575 ms.
-Thread[Thread-848] sent 500 messages in 24592 ms.
-Thread[Thread-844] sent 500 messages in 25000 ms.
-Thread[Thread-841] sent 500 messages in 25019 ms.
-Thread[Thread-843] sent 500 messages in 25421 ms.
-Thread[Thread-836] sent 500 messages in 26607 ms.
+    <system-out>Thread[Thread-845] sent 500 messages in 2011 ms.
+Thread[Thread-849] sent 500 messages in 10109 ms.
+Thread[Thread-856] sent 500 messages in 12278 ms.
+Thread[Thread-857] sent 500 messages in 12418 ms.
+Thread[Thread-848] sent 500 messages in 17384 ms.
+Thread[Thread-851] sent 500 messages in 19084 ms.
+Thread[Thread-843] sent 500 messages in 23500 ms.
+Thread[Thread-842] sent 500 messages in 24990 ms.
+Thread[Thread-850] sent 500 messages in 27488 ms.
+Thread[Thread-846] sent 500 messages in 27979 ms.
+Thread[Thread-847] sent 500 messages in 28143 ms.
+Thread[Thread-839] sent 500 messages in 28192 ms.
+Thread[Thread-852] sent 500 messages in 28400 ms.
+Thread[Thread-854] sent 500 messages in 28963 ms.
+Thread[Thread-855] sent 500 messages in 29238 ms.
+Thread[Thread-844] sent 500 messages in 29264 ms.
+Thread[Thread-858] sent 500 messages in 29372 ms.
+Thread[Thread-840] sent 500 messages in 29480 ms.
+Thread[Thread-853] sent 500 messages in 30254 ms.
+Thread[Thread-841] sent 500 messages in 30649 ms.
 </system-out>
-    <system-err>Nov 02, 2017 5:50:33 PM org.apache.catalina.tribes.transport.ReceiverBase bind
+    <system-err>Nov 02, 2017 6:04:05 PM org.apache.catalina.tribes.transport.ReceiverBase bind
 INFO: Receiver Server Socket bound to:/127.0.1.1:4000
-Nov 02, 2017 5:50:33 PM org.apache.catalina.tribes.membership.McastServiceImpl setupSocket
+Nov 02, 2017 6:04:05 PM org.apache.catalina.tribes.membership.McastServiceImpl setupSocket
 INFO: Setting cluster mcast soTimeout to 500
-Nov 02, 2017 5:50:33 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+Nov 02, 2017 6:04:05 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
 INFO: Sleeping for 1000 milliseconds to establish cluster membership, start level:4
-Nov 02, 2017 5:50:34 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+Nov 02, 2017 6:04:06 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
 INFO: Done sleeping, membership established, start level:4
-Nov 02, 2017 5:50:34 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+Nov 02, 2017 6:04:06 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
 INFO: Sleeping for 1000 milliseconds to establish cluster membership, start level:8
-Nov 02, 2017 5:50:35 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+Nov 02, 2017 6:04:07 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
 INFO: Done sleeping, membership established, start level:8
-Nov 02, 2017 5:50:35 PM org.apache.catalina.tribes.transport.ReceiverBase bind
+Nov 02, 2017 6:04:07 PM org.apache.catalina.tribes.transport.ReceiverBase bind
 INFO: Receiver Server Socket bound to:/127.0.1.1:4001
-Nov 02, 2017 5:50:35 PM org.apache.catalina.tribes.membership.McastServiceImpl setupSocket
+Nov 02, 2017 6:04:07 PM org.apache.catalina.tribes.membership.McastServiceImpl setupSocket
 INFO: Setting cluster mcast soTimeout to 500
-Nov 02, 2017 5:50:35 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+Nov 02, 2017 6:04:07 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
 INFO: Sleeping for 1000 milliseconds to establish cluster membership, start level:4
-Nov 02, 2017 5:50:36 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+Nov 02, 2017 6:04:08 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
 INFO: Done sleeping, membership established, start level:4
-Nov 02, 2017 5:50:36 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+Nov 02, 2017 6:04:08 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
 INFO: Sleeping for 1000 milliseconds to establish cluster membership, start level:8
-Nov 02, 2017 5:50:38 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+Nov 02, 2017 6:04:09 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
 INFO: Done sleeping, membership established, start level:8
 Starting ASYNC MULTI THREAD
-SUCCESS:1003
+SUCCESS:1000
 SUCCESS:2000
 SUCCESS:3000
 SUCCESS:4000
@@ -155,10 +155,10 @@ SUCCESS:6000
 SUCCESS:7000
 SUCCESS:8000
 SUCCESS:9000
-Finished ASYNC MULTI THREAD [9409]
-Nov 02, 2017 5:51:19 PM org.apache.catalina.tribes.transport.nio.ParallelNioSender doLoop
+Finished ASYNC MULTI THREAD [9270]
+Nov 02, 2017 6:04:55 PM org.apache.catalina.tribes.transport.nio.ParallelNioSender doLoop
 WARNING: Member send is failing for:tcp://127.0.1.1:4001 ; Setting to suspect and retrying.
-Nov 02, 2017 5:51:22 PM org.apache.catalina.tribes.membership.McastServiceImpl$ReceiverThread run
+Nov 02, 2017 6:04:58 PM org.apache.catalina.tribes.membership.McastServiceImpl$ReceiverThread run
 WARNING: Error receiving mcast package. Sleeping 500ms
 java.net.SocketException: Socket closed
 	at java.net.PlainDatagramSocketImpl.receive0(Native Method)
@@ -169,8 +169,8 @@ java.net.SocketException: Socket closed
 
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.tribes.test.channel.TestDataIntegrity" name="testDataSendNO_ACK" time="38.542"/>
-  <testcase classname="org.apache.catalina.tribes.test.channel.TestDataIntegrity" name="testDataSendACK" time="37.105"/>
-  <testcase classname="org.apache.catalina.tribes.test.channel.TestDataIntegrity" name="testDataSendASYNC" time="5.008"/>
-  <testcase classname="org.apache.catalina.tribes.test.channel.TestDataIntegrity" name="testDataSendSYNCACK" time="36.328"/>
+  <testcase classname="org.apache.catalina.tribes.test.channel.TestDataIntegrity" name="testDataSendNO_ACK" time="36.471"/>
+  <testcase classname="org.apache.catalina.tribes.test.channel.TestDataIntegrity" name="testDataSendACK" time="40.252"/>
+  <testcase classname="org.apache.catalina.tribes.test.channel.TestDataIntegrity" name="testDataSendASYNC" time="5.11"/>
+  <testcase classname="org.apache.catalina.tribes.test.channel.TestDataIntegrity" name="testDataSendSYNCACK" time="39.267"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="37" failures="0" name="org.apache.jasper.compiler.TestELParser" time="0.024" errors="0" skipped="0">
+<testsuite tests="37" failures="0" name="org.apache.jasper.compiler.TestELParser" time="0.072" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/dustin/Java/jdk1.8.0_151/jre/lib/i386"/>
@@ -61,41 +61,41 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape01" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape02" time="0.005"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape01" time="0.048"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape02" time="0"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape03" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape04" time="0"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape04" time="0.001"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape05" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape07" time="0.001"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape07" time="0"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape08" time="0"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape09" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape10" time="0"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testEscape10" time="0.001"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary01" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary02" time="0.001"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary02" time="0"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary03" time="0.001"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary04" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary05" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary06" time="0.007"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary05" time="0.003"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary06" time="0.002"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary07" time="0"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary08" time="0"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary09" time="0"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary10" time="0.001"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary11" time="0"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary11" time="0.001"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary12" time="0.001"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernary13" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testCompound01" time="0.001"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testCompound01" time="0"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testCompound02" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testCompound03" time="0"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testCompound03" time="0.001"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testText" time="0"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testFunction01" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testFunction02" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testFunction03" time="0.004"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testFunction02" time="0.004"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testFunction03" time="0.001"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testFunction04" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testFunction05" time="0"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testFunction05" time="0.001"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testVariable" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testLiteral" time="0.001"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testQuotes01" time="0.001"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testQuotes02" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testQuotes03" time="0"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testLiteral" time="0"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testQuotes01" time="0"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testQuotes02" time="0.001"/>
+  <testcase classname="org.apache.jasper.compiler.TestELParser" name="testQuotes03" time="0.005"/>
   <testcase classname="org.apache.jasper.compiler.TestELParser" name="testTernaryBug56031" time="0"/>
 </testsuite>

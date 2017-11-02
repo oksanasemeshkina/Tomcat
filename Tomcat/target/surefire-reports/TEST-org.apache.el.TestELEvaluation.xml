@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="17" failures="0" name="org.apache.el.TestELEvaluation" time="0.158" errors="2" skipped="0">
+<testsuite tests="17" failures="0" name="org.apache.el.TestELEvaluation" time="0.214" errors="2" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/dustin/Java/jdk1.8.0_151/jre/lib/i386"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.el.TestELEvaluation" name="testParserStringLiteral" time="0.116">
+  <testcase classname="org.apache.el.TestELEvaluation" name="testParserStringLiteral" time="0.154">
     <error message="Could not initialize class org.apache.el.util.MessageFactory" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.apache.el.util.MessageFactory
 	at org.apache.el.lang.ExpressionBuilder.createNodeInternal(ExpressionBuilder.java:147)
 	at org.apache.el.lang.ExpressionBuilder.build(ExpressionBuilder.java:172)
@@ -100,10 +100,10 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="org.apache.el.TestELEvaluation" name="testBug42565" time="0.015"/>
-  <testcase classname="org.apache.el.TestELEvaluation" name="testBug44994" time="0.004"/>
-  <testcase classname="org.apache.el.TestELEvaluation" name="testBug48112" time="0.003"/>
-  <testcase classname="org.apache.el.TestELEvaluation" name="testMixedTypes" time="0.004">
+  <testcase classname="org.apache.el.TestELEvaluation" name="testBug42565" time="0.028"/>
+  <testcase classname="org.apache.el.TestELEvaluation" name="testBug44994" time="0.006"/>
+  <testcase classname="org.apache.el.TestELEvaluation" name="testBug48112" time="0.006"/>
+  <testcase classname="org.apache.el.TestELEvaluation" name="testMixedTypes" time="0.007">
     <error message="Could not initialize class org.apache.el.util.MessageFactory" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.apache.el.util.MessageFactory
 	at org.apache.el.lang.ExpressionBuilder.createNodeInternal(ExpressionBuilder.java:133)
 	at org.apache.el.lang.ExpressionBuilder.build(ExpressionBuilder.java:172)
@@ -142,16 +142,16 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="org.apache.el.TestELEvaluation" name="testElSupportCompare" time="0.002"/>
+  <testcase classname="org.apache.el.TestELEvaluation" name="testElSupportCompare" time="0.003"/>
   <testcase classname="org.apache.el.TestELEvaluation" name="testBug49081a" time="0"/>
   <testcase classname="org.apache.el.TestELEvaluation" name="testBug49081b" time="0.001"/>
-  <testcase classname="org.apache.el.TestELEvaluation" name="testBug49081c" time="0.001"/>
+  <testcase classname="org.apache.el.TestELEvaluation" name="testBug49081c" time="0"/>
   <testcase classname="org.apache.el.TestELEvaluation" name="testBug49081d" time="0"/>
-  <testcase classname="org.apache.el.TestELEvaluation" name="testBug60431a" time="0.001"/>
+  <testcase classname="org.apache.el.TestELEvaluation" name="testBug60431a" time="0"/>
   <testcase classname="org.apache.el.TestELEvaluation" name="testBug60431b" time="0.001"/>
   <testcase classname="org.apache.el.TestELEvaluation" name="testBug60431c" time="0.001"/>
   <testcase classname="org.apache.el.TestELEvaluation" name="testBug60431d" time="0.001"/>
   <testcase classname="org.apache.el.TestELEvaluation" name="testBug60431e" time="0"/>
-  <testcase classname="org.apache.el.TestELEvaluation" name="testParserLiteralExpression" time="0.004"/>
-  <testcase classname="org.apache.el.TestELEvaluation" name="testParserBug45511" time="0.004"/>
+  <testcase classname="org.apache.el.TestELEvaluation" name="testParserLiteralExpression" time="0.003"/>
+  <testcase classname="org.apache.el.TestELEvaluation" name="testParserBug45511" time="0.003"/>
 </testsuite>

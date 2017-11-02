@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="org.apache.catalina.connector.TestSendFile" time="0.454" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="org.apache.catalina.connector.TestSendFile" time="0.394" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/dustin/Java/jdk1.8.0_151/jre/lib/i386"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.catalina.connector.TestSendFile" name="testSendFile" time="0.454">
+  <testcase classname="org.apache.catalina.connector.TestSendFile" name="testSendFile" time="0.394">
     <error type="java.lang.ExceptionInInitializerError">java.lang.ExceptionInInitializerError
 	at org.apache.catalina.connector.TestSendFile.testSendFile(TestSendFile.java:62)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -104,20 +104,20 @@ Caused by: java.util.MissingResourceException: Can&apos;t find bundle for base n
 	at javax.servlet.http.HttpServlet.&lt;clinit&gt;(HttpServlet.java:93)
 	... 34 more
 </error>
-    <system-out>Created file:/tmp/testSendFile-1509641272838-0.txt with 100000 bytes.
-Created file:/tmp/testSendFile-1509641272847-1.txt with 200000 bytes.
-Created file:/tmp/testSendFile-1509641272849-2.txt with 300000 bytes.
-Created file:/tmp/testSendFile-1509641272853-3.txt with 400000 bytes.
-Created file:/tmp/testSendFile-1509641272862-4.txt with 500000 bytes.
-Created file:/tmp/testSendFile-1509641272869-5.txt with 600000 bytes.
-Created file:/tmp/testSendFile-1509641272890-6.txt with 700000 bytes.
-Created file:/tmp/testSendFile-1509641272899-7.txt with 800000 bytes.
-Created file:/tmp/testSendFile-1509641272925-8.txt with 900000 bytes.
-Created file:/tmp/testSendFile-1509641272991-9.txt with 1000000 bytes.
+    <system-out>Created file:/tmp/testSendFile-1509642099232-0.txt with 100000 bytes.
+Created file:/tmp/testSendFile-1509642099236-1.txt with 200000 bytes.
+Created file:/tmp/testSendFile-1509642099239-2.txt with 300000 bytes.
+Created file:/tmp/testSendFile-1509642099242-3.txt with 400000 bytes.
+Created file:/tmp/testSendFile-1509642099249-4.txt with 500000 bytes.
+Created file:/tmp/testSendFile-1509642099255-5.txt with 600000 bytes.
+Created file:/tmp/testSendFile-1509642099269-6.txt with 700000 bytes.
+Created file:/tmp/testSendFile-1509642099280-7.txt with 800000 bytes.
+Created file:/tmp/testSendFile-1509642099302-8.txt with 900000 bytes.
+Created file:/tmp/testSendFile-1509642099353-9.txt with 1000000 bytes.
 </system-out>
-    <system-err>Nov 02, 2017 5:47:52 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:39 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testSendFile]
-Nov 02, 2017 5:47:52 PM org.apache.catalina.startup.CatalinaProperties loadProperties
+Nov 02, 2017 6:01:39 PM org.apache.catalina.startup.CatalinaProperties loadProperties
 WARNING: Failed to load catalina.properties
 </system-err>
   </testcase>

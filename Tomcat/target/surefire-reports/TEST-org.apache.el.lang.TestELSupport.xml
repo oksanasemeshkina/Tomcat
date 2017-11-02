@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="org.apache.el.lang.TestELSupport" time="0.083" errors="2" skipped="0">
+<testsuite tests="14" failures="0" name="org.apache.el.lang.TestELSupport" time="0.062" errors="2" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/dustin/Java/jdk1.8.0_151/jre/lib/i386"/>
@@ -61,19 +61,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.el.lang.TestELSupport" name="testCoerceNullToNumber" time="0.028"/>
-  <testcase classname="org.apache.el.lang.TestELSupport" name="testBigDecimal" time="0.002"/>
-  <testcase classname="org.apache.el.lang.TestELSupport" name="testFloat" time="0.001"/>
+  <testcase classname="org.apache.el.lang.TestELSupport" name="testCoerceNullToNumber" time="0.015"/>
+  <testcase classname="org.apache.el.lang.TestELSupport" name="testBigDecimal" time="0.004"/>
+  <testcase classname="org.apache.el.lang.TestELSupport" name="testFloat" time="0"/>
   <testcase classname="org.apache.el.lang.TestELSupport" name="testShort" time="0.001"/>
-  <testcase classname="org.apache.el.lang.TestELSupport" name="testByte" time="0.002"/>
-  <testcase classname="org.apache.el.lang.TestELSupport" name="testLong" time="0.002"/>
-  <testcase classname="org.apache.el.lang.TestELSupport" name="testBigInteger" time="0.002"/>
+  <testcase classname="org.apache.el.lang.TestELSupport" name="testByte" time="0.001"/>
+  <testcase classname="org.apache.el.lang.TestELSupport" name="testLong" time="0.001"/>
+  <testcase classname="org.apache.el.lang.TestELSupport" name="testBigInteger" time="0.001"/>
   <testcase classname="org.apache.el.lang.TestELSupport" name="testCoerceIntegerToNumber" time="0.001"/>
   <testcase classname="org.apache.el.lang.TestELSupport" name="testDouble" time="0.001"/>
-  <testcase classname="org.apache.el.lang.TestELSupport" name="testEquals" time="0.001"/>
+  <testcase classname="org.apache.el.lang.TestELSupport" name="testEquals" time="0"/>
   <testcase classname="org.apache.el.lang.TestELSupport" name="testInteger" time="0"/>
   <testcase classname="org.apache.el.lang.TestELSupport" name="testCoerceEnumAToEnumA" time="0.001"/>
-  <testcase classname="org.apache.el.lang.TestELSupport" name="testCoerceEnumAToEnumB" time="0.039">
+  <testcase classname="org.apache.el.lang.TestELSupport" name="testCoerceEnumAToEnumB" time="0.035">
     <error type="java.lang.ExceptionInInitializerError">java.lang.ExceptionInInitializerError
 	at org.apache.el.lang.ELSupport.coerceToEnum(ELSupport.java:180)
 	at org.apache.el.lang.TestELSupport.testCoerceEnumAToEnumB(TestELSupport.java:105)
@@ -114,7 +114,7 @@ Caused by: java.util.MissingResourceException: Can&apos;t find bundle for base n
 	... 31 more
 </error>
   </testcase>
-  <testcase classname="org.apache.el.lang.TestELSupport" name="testCoerceEnumAToEnumC" time="0.002">
+  <testcase classname="org.apache.el.lang.TestELSupport" name="testCoerceEnumAToEnumC" time="0.001">
     <error message="Could not initialize class org.apache.el.util.MessageFactory" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.apache.el.util.MessageFactory
 	at org.apache.el.lang.ELSupport.coerceToEnum(ELSupport.java:180)
 	at org.apache.el.lang.TestELSupport.testCoerceEnumAToEnumC(TestELSupport.java:116)

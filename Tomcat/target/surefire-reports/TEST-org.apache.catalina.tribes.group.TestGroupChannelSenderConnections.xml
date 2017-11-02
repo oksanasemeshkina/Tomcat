@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="org.apache.catalina.tribes.group.TestGroupChannelSenderConnections" time="6.657" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="org.apache.catalina.tribes.group.TestGroupChannelSenderConnections" time="7.038" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/dustin/Java/jdk1.8.0_151/jre/lib/i386"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.catalina.tribes.group.TestGroupChannelSenderConnections" name="testKeepAliveCount" time="2.247"/>
-  <testcase classname="org.apache.catalina.tribes.group.TestGroupChannelSenderConnections" name="testKeepAliveTime" time="4.213"/>
-  <testcase classname="org.apache.catalina.tribes.group.TestGroupChannelSenderConnections" name="testConnectionLinger" time="0.197"/>
+  <testcase classname="org.apache.catalina.tribes.group.TestGroupChannelSenderConnections" name="testKeepAliveCount" time="2.62"/>
+  <testcase classname="org.apache.catalina.tribes.group.TestGroupChannelSenderConnections" name="testKeepAliveTime" time="4.234"/>
+  <testcase classname="org.apache.catalina.tribes.group.TestGroupChannelSenderConnections" name="testConnectionLinger" time="0.184"/>
 </testsuite>

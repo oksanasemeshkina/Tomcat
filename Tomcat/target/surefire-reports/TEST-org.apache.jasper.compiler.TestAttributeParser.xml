@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="org.apache.jasper.compiler.TestAttributeParser" time="0.011" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="org.apache.jasper.compiler.TestAttributeParser" time="0.021" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/dustin/Java/jdk1.8.0_151/jre/lib/i386"/>
@@ -61,11 +61,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.jasper.compiler.TestAttributeParser" name="testScriptExpressionLiterals" time="0.004"/>
-  <testcase classname="org.apache.jasper.compiler.TestAttributeParser" name="testBug42565" time="0"/>
+  <testcase classname="org.apache.jasper.compiler.TestAttributeParser" name="testScriptExpressionLiterals" time="0.005"/>
+  <testcase classname="org.apache.jasper.compiler.TestAttributeParser" name="testBug42565" time="0.001"/>
   <testcase classname="org.apache.jasper.compiler.TestAttributeParser" name="testBug44994" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestAttributeParser" name="testBug45015" time="0.002"/>
-  <testcase classname="org.apache.jasper.compiler.TestAttributeParser" name="testBug45451" time="0.001"/>
+  <testcase classname="org.apache.jasper.compiler.TestAttributeParser" name="testBug45015" time="0.006"/>
+  <testcase classname="org.apache.jasper.compiler.TestAttributeParser" name="testBug45451" time="0.006"/>
   <testcase classname="org.apache.jasper.compiler.TestAttributeParser" name="testBug49081" time="0"/>
-  <testcase classname="org.apache.jasper.compiler.TestAttributeParser" name="testLiteral" time="0.004"/>
+  <testcase classname="org.apache.jasper.compiler.TestAttributeParser" name="testLiteral" time="0.003"/>
 </testsuite>

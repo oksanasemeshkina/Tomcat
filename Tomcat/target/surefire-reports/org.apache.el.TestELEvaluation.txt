@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.el.TestELEvaluation
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.192 sec <<< FAILURE!
-testParserStringLiteral(org.apache.el.TestELEvaluation)  Time elapsed: 0.116 sec  <<< ERROR!
+Tests run: 17, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.245 sec <<< FAILURE!
+testParserStringLiteral(org.apache.el.TestELEvaluation)  Time elapsed: 0.154 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: Could not initialize class org.apache.el.util.MessageFactory
 	at org.apache.el.lang.ExpressionBuilder.createNodeInternal(ExpressionBuilder.java:147)
 	at org.apache.el.lang.ExpressionBuilder.build(ExpressionBuilder.java:172)
@@ -40,7 +40,7 @@ java.lang.NoClassDefFoundError: Could not initialize class org.apache.el.util.Me
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testMixedTypes(org.apache.el.TestELEvaluation)  Time elapsed: 0.004 sec  <<< ERROR!
+testMixedTypes(org.apache.el.TestELEvaluation)  Time elapsed: 0.007 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: Could not initialize class org.apache.el.util.MessageFactory
 	at org.apache.el.lang.ExpressionBuilder.createNodeInternal(ExpressionBuilder.java:133)
 	at org.apache.el.lang.ExpressionBuilder.build(ExpressionBuilder.java:172)

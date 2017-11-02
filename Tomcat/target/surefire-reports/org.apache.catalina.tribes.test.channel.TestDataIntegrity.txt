@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.catalina.tribes.test.channel.TestDataIntegrity
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 163.538 sec <<< FAILURE!
-testDataSendASYNCM(org.apache.catalina.tribes.test.channel.TestDataIntegrity)  Time elapsed: 46.551 sec  <<< FAILURE!
-java.lang.AssertionError: Checking success messages. expected:<10000> but was:<9409>
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 173.545 sec <<< FAILURE!
+testDataSendASYNCM(org.apache.catalina.tribes.test.channel.TestDataIntegrity)  Time elapsed: 52.414 sec  <<< FAILURE!
+java.lang.AssertionError: Checking success messages. expected:<10000> but was:<9270>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:743)
 	at org.junit.Assert.assertEquals(Assert.java:118)

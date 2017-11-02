@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: javax.el.TestArrayELResolver
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.032 sec <<< FAILURE!
-testSetValue03(javax.el.TestArrayELResolver)  Time elapsed: 0.006 sec  <<< ERROR!
+Tests run: 21, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.11 sec <<< FAILURE!
+testSetValue03(javax.el.TestArrayELResolver)  Time elapsed: 0.028 sec  <<< ERROR!
 java.lang.Exception: Unexpected exception, expected<javax.el.PropertyNotWritableException> but was<java.util.MissingResourceException>
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
@@ -44,7 +44,7 @@ Caused by: java.util.MissingResourceException: Can't find bundle for base name j
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
 	... 21 more
 
-testSetValue07(javax.el.TestArrayELResolver)  Time elapsed: 0.001 sec  <<< ERROR!
+testSetValue07(javax.el.TestArrayELResolver)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.Exception: Unexpected exception, expected<java.lang.ClassCastException> but was<java.util.MissingResourceException>
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)

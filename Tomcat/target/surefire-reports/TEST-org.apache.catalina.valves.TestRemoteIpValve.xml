@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="16" failures="0" name="org.apache.catalina.valves.TestRemoteIpValve" time="0.05" errors="0" skipped="0">
+<testsuite tests="16" failures="0" name="org.apache.catalina.valves.TestRemoteIpValve" time="0.059" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/dustin/Java/jdk1.8.0_151/jre/lib/i386"/>
@@ -61,20 +61,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeAllowedRemoteAddrWithNullRemoteIpHeader" time="0.031"/>
-  <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeAllProxiesAreTrusted" time="0.003"/>
+  <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeAllowedRemoteAddrWithNullRemoteIpHeader" time="0.042"/>
+  <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeAllProxiesAreTrusted" time="0.002"/>
   <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeNotAllowedRemoteAddr" time="0.001"/>
   <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeUntrustedProxyInTheChain" time="0.001"/>
-  <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeXforwardedProtoIsNullForIncomingHttpsRequest" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeXforwardedProtoIsNullForIncomingHttpsRequest" time="0.002"/>
   <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testListToCommaDelimitedStringEmptyList" time="0"/>
   <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeAllProxiesAreTrustedAndRemoteAddrMatchRegexp" time="0.001"/>
   <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testListToCommaDelimitedString" time="0"/>
   <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeXforwardedProtoSaysHttpForIncomingHttpsRequest" time="0.002"/>
-  <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testCommaDelimitedListToStringArray" time="0.002"/>
+  <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testCommaDelimitedListToStringArray" time="0"/>
   <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testCommaDelimitedListToStringArrayMixedSpaceChars" time="0"/>
-  <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeXforwardedProtoSaysHttpsForIncomingHttpRequest" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeXforwardedProtoSaysHttpsForIncomingHttpRequest" time="0.002"/>
   <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeAllProxiesAreInternal" time="0.002"/>
-  <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeXforwardedProtoIsNullForIncomingHttpRequest" time="0.004"/>
+  <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeXforwardedProtoIsNullForIncomingHttpRequest" time="0.003"/>
   <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testCommaDelimitedListToStringArrayNullList" time="0"/>
   <testcase classname="org.apache.catalina.valves.TestRemoteIpValve" name="testInvokeAllProxiesAreTrustedOrInternal" time="0.001"/>
 </testsuite>

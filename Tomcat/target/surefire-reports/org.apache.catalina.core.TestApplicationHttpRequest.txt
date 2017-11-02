@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.catalina.core.TestApplicationHttpRequest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 0.024 sec <<< FAILURE!
-testMergeQueryString01(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 16, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 0.054 sec <<< FAILURE!
+testMergeQueryString01(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:190)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testMergeQueryString01(TestApplicationHttpRequest.java:136)
@@ -40,7 +40,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testMergeQueryString02(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0 sec  <<< ERROR!
+testMergeQueryString02(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:190)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testMergeQueryString02(TestApplicationHttpRequest.java:145)
@@ -116,7 +116,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testMergeQueryString04(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0.001 sec  <<< ERROR!
+testMergeQueryString04(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:190)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testMergeQueryString04(TestApplicationHttpRequest.java:163)
@@ -154,7 +154,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testMergeQueryString05(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0 sec  <<< ERROR!
+testMergeQueryString05(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0.01 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:190)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testMergeQueryString05(TestApplicationHttpRequest.java:176)
@@ -192,7 +192,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testForwardQueryString01(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0.001 sec  <<< ERROR!
+testForwardQueryString01(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:190)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testForwardQueryString01(TestApplicationHttpRequest.java:48)
@@ -306,7 +306,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testForwardQueryString04(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0 sec  <<< ERROR!
+testForwardQueryString04(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:190)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testForwardQueryString04(TestApplicationHttpRequest.java:74)
@@ -382,7 +382,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testParameterImmutability(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0.001 sec  <<< ERROR!
+testParameterImmutability(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0.004 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.testParameterImmutability(TestApplicationHttpRequest.java:221)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -533,7 +533,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testOriginalQueryString04(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0 sec  <<< ERROR!
+testOriginalQueryString04(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:188)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testOriginalQueryString04(TestApplicationHttpRequest.java:118)
@@ -571,7 +571,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testOriginalQueryString05(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0.001 sec  <<< ERROR!
+testOriginalQueryString05(org.apache.catalina.core.TestApplicationHttpRequest)  Time elapsed: 0.007 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:188)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testOriginalQueryString05(TestApplicationHttpRequest.java:128)

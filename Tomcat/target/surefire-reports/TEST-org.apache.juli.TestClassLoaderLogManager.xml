@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="org.apache.juli.TestClassLoaderLogManager" time="2.111" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="org.apache.juli.TestClassLoaderLogManager" time="2.098" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/dustin/Java/jdk1.8.0_151/jre/lib/i386"/>
@@ -61,6 +61,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.juli.TestClassLoaderLogManager" name="testBug56082" time="2.111"/>
+  <testcase classname="org.apache.juli.TestClassLoaderLogManager" name="testBug56082" time="2.098"/>
   <testcase classname="org.apache.juli.TestClassLoaderLogManager" name="testReplace" time="0"/>
 </testsuite>

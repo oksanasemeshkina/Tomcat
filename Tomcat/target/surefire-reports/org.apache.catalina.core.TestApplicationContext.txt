@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.catalina.core.TestApplicationContext
 -------------------------------------------------------------------------------
-Tests run: 41, Failures: 0, Errors: 41, Skipped: 0, Time elapsed: 0.599 sec <<< FAILURE!
-testGetRequestDispatcherEncodedTraversal(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.025 sec  <<< ERROR!
+Tests run: 41, Failures: 0, Errors: 41, Skipped: 0, Time elapsed: 0.445 sec <<< FAILURE!
+testGetRequestDispatcherEncodedTraversal(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.012 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcherEncodedTraversal(TestApplicationContext.java:65)
@@ -40,7 +40,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcherNullPath01(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.015 sec  <<< ERROR!
+testGetRequestDispatcherNullPath01(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.007 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcherNullPath01(TestApplicationContext.java:39)
@@ -78,7 +78,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcherNullPath02(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.004 sec  <<< ERROR!
+testGetRequestDispatcherNullPath02(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcherNullPath02(TestApplicationContext.java:45)
@@ -116,7 +116,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher01(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.013 sec  <<< ERROR!
+testGetRequestDispatcher01(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.009 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher01(TestApplicationContext.java:114)
@@ -154,7 +154,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher02(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.005 sec  <<< ERROR!
+testGetRequestDispatcher02(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.004 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher02(TestApplicationContext.java:121)
@@ -192,7 +192,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher03(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.003 sec  <<< ERROR!
+testGetRequestDispatcher03(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.004 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher03(TestApplicationContext.java:128)
@@ -230,7 +230,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher04(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.008 sec  <<< ERROR!
+testGetRequestDispatcher04(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.01 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher04(TestApplicationContext.java:135)
@@ -268,7 +268,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher05(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.009 sec  <<< ERROR!
+testGetRequestDispatcher05(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher05(TestApplicationContext.java:142)
@@ -306,7 +306,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher06(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.005 sec  <<< ERROR!
+testGetRequestDispatcher06(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.007 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher06(TestApplicationContext.java:149)
@@ -344,7 +344,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher11(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.007 sec  <<< ERROR!
+testGetRequestDispatcher11(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher11(TestApplicationContext.java:156)
@@ -382,7 +382,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher12(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.005 sec  <<< ERROR!
+testGetRequestDispatcher12(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.011 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher12(TestApplicationContext.java:166)
@@ -420,7 +420,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher13(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.018 sec  <<< ERROR!
+testGetRequestDispatcher13(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.004 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher13(TestApplicationContext.java:173)
@@ -458,7 +458,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher14(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.012 sec  <<< ERROR!
+testGetRequestDispatcher14(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.006 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher14(TestApplicationContext.java:183)
@@ -496,7 +496,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher15(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.03 sec  <<< ERROR!
+testGetRequestDispatcher15(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.018 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher15(TestApplicationContext.java:190)
@@ -534,7 +534,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher16(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.018 sec  <<< ERROR!
+testGetRequestDispatcher16(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.011 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher16(TestApplicationContext.java:200)
@@ -572,7 +572,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher21(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.012 sec  <<< ERROR!
+testGetRequestDispatcher21(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.013 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher21(TestApplicationContext.java:207)
@@ -610,7 +610,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher22(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.015 sec  <<< ERROR!
+testGetRequestDispatcher22(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.004 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher22(TestApplicationContext.java:214)
@@ -648,7 +648,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher23(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.008 sec  <<< ERROR!
+testGetRequestDispatcher23(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.006 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher23(TestApplicationContext.java:221)
@@ -686,7 +686,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher24(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.018 sec  <<< ERROR!
+testGetRequestDispatcher24(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.014 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher24(TestApplicationContext.java:228)
@@ -724,7 +724,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher25(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.012 sec  <<< ERROR!
+testGetRequestDispatcher25(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.009 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher25(TestApplicationContext.java:235)
@@ -762,7 +762,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher26(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.015 sec  <<< ERROR!
+testGetRequestDispatcher26(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher26(TestApplicationContext.java:242)
@@ -800,7 +800,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher31(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.006 sec  <<< ERROR!
+testGetRequestDispatcher31(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher31(TestApplicationContext.java:249)
@@ -838,7 +838,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher32(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.032 sec  <<< ERROR!
+testGetRequestDispatcher32(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.013 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher32(TestApplicationContext.java:256)
@@ -876,7 +876,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher33(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.004 sec  <<< ERROR!
+testGetRequestDispatcher33(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.007 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher33(TestApplicationContext.java:263)
@@ -914,7 +914,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher34(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.015 sec  <<< ERROR!
+testGetRequestDispatcher34(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.006 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher34(TestApplicationContext.java:270)
@@ -952,7 +952,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher35(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.005 sec  <<< ERROR!
+testGetRequestDispatcher35(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.01 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher35(TestApplicationContext.java:277)
@@ -990,7 +990,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher36(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.018 sec  <<< ERROR!
+testGetRequestDispatcher36(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.011 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher36(TestApplicationContext.java:284)
@@ -1066,7 +1066,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher42(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.004 sec  <<< ERROR!
+testGetRequestDispatcher42(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher42(TestApplicationContext.java:298)
@@ -1142,7 +1142,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher44(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.011 sec  <<< ERROR!
+testGetRequestDispatcher44(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.004 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher44(TestApplicationContext.java:312)
@@ -1180,7 +1180,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher45(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.005 sec  <<< ERROR!
+testGetRequestDispatcher45(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.004 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher45(TestApplicationContext.java:319)
@@ -1218,7 +1218,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcher46(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.005 sec  <<< ERROR!
+testGetRequestDispatcher46(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.014 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcher46(TestApplicationContext.java:326)
@@ -1256,7 +1256,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcherOutsideContextRoot01(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.013 sec  <<< ERROR!
+testGetRequestDispatcherOutsideContextRoot01(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.004 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcherOutsideContextRoot01(TestApplicationContext.java:51)
@@ -1370,7 +1370,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcherTraversal02(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.005 sec  <<< ERROR!
+testGetRequestDispatcherTraversal02(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.013 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcherTraversal02(TestApplicationContext.java:79)
@@ -1408,7 +1408,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcherTraversal03(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.016 sec  <<< ERROR!
+testGetRequestDispatcherTraversal03(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.015 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcherTraversal03(TestApplicationContext.java:86)
@@ -1446,7 +1446,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcherTraversal04(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.011 sec  <<< ERROR!
+testGetRequestDispatcherTraversal04(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.014 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcherTraversal04(TestApplicationContext.java:93)
@@ -1484,7 +1484,7 @@ java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testGetRequestDispatcherTraversal05(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.016 sec  <<< ERROR!
+testGetRequestDispatcherTraversal05(org.apache.catalina.core.TestApplicationContext)  Time elapsed: 0.015 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationContext.doTestGetRequestDispatcher(TestApplicationContext.java:343)
 	at org.apache.catalina.core.TestApplicationContext.testGetRequestDispatcherTraversal05(TestApplicationContext.java:100)

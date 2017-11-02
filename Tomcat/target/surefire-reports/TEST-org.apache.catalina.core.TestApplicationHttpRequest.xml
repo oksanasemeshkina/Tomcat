@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="16" failures="0" name="org.apache.catalina.core.TestApplicationHttpRequest" time="0.008" errors="16" skipped="0">
+<testsuite tests="16" failures="0" name="org.apache.catalina.core.TestApplicationHttpRequest" time="0.033" errors="16" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/dustin/Java/jdk1.8.0_151/jre/lib/i386"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testMergeQueryString01" time="0.001">
+  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testMergeQueryString01" time="0">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:190)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testMergeQueryString01(TestApplicationHttpRequest.java:136)
@@ -99,11 +99,11 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testMergeQueryString01]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testMergeQueryString02" time="0">
+  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testMergeQueryString02" time="0.001">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:190)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testMergeQueryString02(TestApplicationHttpRequest.java:145)
@@ -141,7 +141,7 @@ INFO: Starting test case [testMergeQueryString01]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testMergeQueryString02]
 </system-err>
   </testcase>
@@ -183,11 +183,11 @@ INFO: Starting test case [testMergeQueryString02]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testMergeQueryString03]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testMergeQueryString04" time="0.001">
+  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testMergeQueryString04" time="0">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:190)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testMergeQueryString04(TestApplicationHttpRequest.java:163)
@@ -225,11 +225,11 @@ INFO: Starting test case [testMergeQueryString03]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testMergeQueryString04]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testMergeQueryString05" time="0">
+  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testMergeQueryString05" time="0.01">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:190)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testMergeQueryString05(TestApplicationHttpRequest.java:176)
@@ -267,11 +267,11 @@ INFO: Starting test case [testMergeQueryString04]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testMergeQueryString05]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testForwardQueryString01" time="0.001">
+  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testForwardQueryString01" time="0.005">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:190)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testForwardQueryString01(TestApplicationHttpRequest.java:48)
@@ -309,7 +309,7 @@ INFO: Starting test case [testMergeQueryString05]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testForwardQueryString01]
 </system-err>
   </testcase>
@@ -351,7 +351,7 @@ INFO: Starting test case [testForwardQueryString01]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testForwardQueryString02]
 </system-err>
   </testcase>
@@ -393,11 +393,11 @@ INFO: Starting test case [testForwardQueryString02]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testForwardQueryString03]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testForwardQueryString04" time="0">
+  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testForwardQueryString04" time="0.002">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:190)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testForwardQueryString04(TestApplicationHttpRequest.java:74)
@@ -435,7 +435,7 @@ INFO: Starting test case [testForwardQueryString03]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testForwardQueryString04]
 </system-err>
   </testcase>
@@ -477,11 +477,11 @@ INFO: Starting test case [testForwardQueryString04]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testForwardQueryString05]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testParameterImmutability" time="0.001">
+  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testParameterImmutability" time="0.004">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.testParameterImmutability(TestApplicationHttpRequest.java:221)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -518,7 +518,7 @@ INFO: Starting test case [testForwardQueryString05]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testParameterImmutability]
 </system-err>
   </testcase>
@@ -560,7 +560,7 @@ INFO: Starting test case [testParameterImmutability]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testOriginalQueryString01]
 </system-err>
   </testcase>
@@ -602,7 +602,7 @@ INFO: Starting test case [testOriginalQueryString01]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testOriginalQueryString02]
 </system-err>
   </testcase>
@@ -644,11 +644,11 @@ INFO: Starting test case [testOriginalQueryString02]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testOriginalQueryString03]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testOriginalQueryString04" time="0">
+  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testOriginalQueryString04" time="0.001">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:188)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testOriginalQueryString04(TestApplicationHttpRequest.java:118)
@@ -686,11 +686,11 @@ INFO: Starting test case [testOriginalQueryString03]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testOriginalQueryString04]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testOriginalQueryString05" time="0.001">
+  <testcase classname="org.apache.catalina.core.TestApplicationHttpRequest" name="testOriginalQueryString05" time="0.007">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.core.TestApplicationHttpRequest.doQueryStringTest(TestApplicationHttpRequest.java:188)
 	at org.apache.catalina.core.TestApplicationHttpRequest.testOriginalQueryString05(TestApplicationHttpRequest.java:128)
@@ -728,7 +728,7 @@ INFO: Starting test case [testOriginalQueryString04]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:47:55 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:01:41 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testOriginalQueryString05]
 </system-err>
   </testcase>

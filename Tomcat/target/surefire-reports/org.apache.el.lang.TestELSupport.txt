@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.el.lang.TestELSupport
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.211 sec <<< FAILURE!
-testCoerceEnumAToEnumB(org.apache.el.lang.TestELSupport)  Time elapsed: 0.039 sec  <<< ERROR!
+Tests run: 14, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.183 sec <<< FAILURE!
+testCoerceEnumAToEnumB(org.apache.el.lang.TestELSupport)  Time elapsed: 0.035 sec  <<< ERROR!
 java.lang.ExceptionInInitializerError
 	at org.apache.el.lang.ELSupport.coerceToEnum(ELSupport.java:180)
 	at org.apache.el.lang.TestELSupport.testCoerceEnumAToEnumB(TestELSupport.java:105)
@@ -42,7 +42,7 @@ Caused by: java.util.MissingResourceException: Can't find bundle for base name o
 	at org.apache.el.util.MessageFactory.<clinit>(MessageFactory.java:29)
 	... 31 more
 
-testCoerceEnumAToEnumC(org.apache.el.lang.TestELSupport)  Time elapsed: 0.002 sec  <<< ERROR!
+testCoerceEnumAToEnumC(org.apache.el.lang.TestELSupport)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: Could not initialize class org.apache.el.util.MessageFactory
 	at org.apache.el.lang.ELSupport.coerceToEnum(ELSupport.java:180)
 	at org.apache.el.lang.TestELSupport.testCoerceEnumAToEnumC(TestELSupport.java:116)

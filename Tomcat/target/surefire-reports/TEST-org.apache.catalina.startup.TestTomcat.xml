@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="18" failures="1" name="org.apache.catalina.startup.TestTomcat" time="7.141" errors="12" skipped="0">
+<testsuite tests="18" failures="1" name="org.apache.catalina.startup.TestTomcat" time="8.036" errors="12" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/dustin/Java/jdk1.8.0_151/jre/lib/i386"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testProgrammatic" time="0.017">
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testProgrammatic" time="0.024">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.startup.TestTomcat.testProgrammatic(TestTomcat.java:250)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -98,12 +98,12 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:53:19 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:06:59 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testProgrammatic]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testGetWebappConfigFileFromDirectoryNegative" time="0.014"/>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testSingleWebapp" time="1.4">
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testGetWebappConfigFileFromDirectoryNegative" time="0.007"/>
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testSingleWebapp" time="1.839">
     <error message="java.lang.NullPointerException" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: java.lang.NullPointerException
 	at org.apache.catalina.util.CharsetMapper.&lt;init&gt;(CharsetMapper.java:78)
 	at org.apache.catalina.util.CharsetMapper.&lt;init&gt;(CharsetMapper.java:59)
@@ -152,55 +152,55 @@ INFO: Starting test case [testProgrammatic]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:53:19 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:06:59 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testSingleWebapp]
-Nov 02, 2017 5:53:19 PM org.apache.coyote.http11.Http11Protocol init
+Nov 02, 2017 6:06:59 PM org.apache.coyote.http11.Http11Protocol init
 INFO: http11protocol.init
-Nov 02, 2017 5:53:19 PM org.apache.catalina.core.StandardService start
+Nov 02, 2017 6:06:59 PM org.apache.catalina.core.StandardService start
 INFO: standardService.start.name
-Nov 02, 2017 5:53:19 PM org.apache.catalina.core.StandardEngine start
+Nov 02, 2017 6:06:59 PM org.apache.catalina.core.StandardEngine start
 INFO: Starting Servlet Engine: Apache Tomcat
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
+Nov 02, 2017 6:07:00 PM org.apache.tomcat.util.descriptor.DigesterFactory locationFor
 WARNING: digesterFactory.missingSchema
-Nov 02, 2017 5:53:19 PM org.apache.catalina.core.StandardWrapper &lt;init&gt;
+Nov 02, 2017 6:07:00 PM org.apache.catalina.core.StandardWrapper &lt;init&gt;
 SEVERE: standardWrapper.restrictedServletsResource
-Nov 02, 2017 5:53:19 PM org.apache.catalina.core.StandardContext resourcesStart
+Nov 02, 2017 6:07:00 PM org.apache.catalina.core.StandardContext resourcesStart
 SEVERE: standardContext.resourcesStart
 java.lang.NullPointerException
 	at org.apache.naming.StringManager.getString(StringManager.java:113)
@@ -251,15 +251,15 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-Nov 02, 2017 5:53:19 PM org.apache.catalina.core.StandardContext start
+Nov 02, 2017 6:07:00 PM org.apache.catalina.core.StandardContext start
 SEVERE: Error in resourceStart()
-Nov 02, 2017 5:53:19 PM org.apache.coyote.http11.Http11Protocol pause
+Nov 02, 2017 6:07:00 PM org.apache.coyote.http11.Http11Protocol pause
 INFO: http11protocol.pause
-Nov 02, 2017 5:53:20 PM org.apache.catalina.core.StandardService stop
+Nov 02, 2017 6:07:01 PM org.apache.catalina.core.StandardService stop
 INFO: standardService.stop.name
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testSingleWebapp" time="1.401">
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testSingleWebapp" time="1.84">
     <error message="standardPipeline.notStarted" type="LifecycleException">LifecycleException:  standardPipeline.notStarted
 	at org.apache.catalina.core.StandardPipeline.stop(StandardPipeline.java:258)
 	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1107)
@@ -301,7 +301,7 @@ INFO: standardService.stop.name
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testJsps" time="1.036">
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testJsps" time="1.047">
     <error message="java.lang.NullPointerException" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: java.lang.NullPointerException
 	at org.apache.catalina.util.CharsetMapper.&lt;init&gt;(CharsetMapper.java:78)
 	at org.apache.catalina.util.CharsetMapper.&lt;init&gt;(CharsetMapper.java:59)
@@ -350,15 +350,15 @@ INFO: standardService.stop.name
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:53:20 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:07:01 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testJsps]
-Nov 02, 2017 5:53:20 PM org.apache.coyote.http11.Http11Protocol init
+Nov 02, 2017 6:07:01 PM org.apache.coyote.http11.Http11Protocol init
 INFO: http11protocol.init
-Nov 02, 2017 5:53:21 PM org.apache.catalina.core.StandardService start
+Nov 02, 2017 6:07:01 PM org.apache.catalina.core.StandardService start
 INFO: standardService.start.name
-Nov 02, 2017 5:53:21 PM org.apache.catalina.core.StandardEngine start
+Nov 02, 2017 6:07:01 PM org.apache.catalina.core.StandardEngine start
 INFO: Starting Servlet Engine: Apache Tomcat
-Nov 02, 2017 5:53:21 PM org.apache.catalina.core.StandardContext resourcesStart
+Nov 02, 2017 6:07:01 PM org.apache.catalina.core.StandardContext resourcesStart
 SEVERE: standardContext.resourcesStart
 java.lang.NullPointerException
 	at org.apache.naming.StringManager.getString(StringManager.java:113)
@@ -409,15 +409,15 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-Nov 02, 2017 5:53:21 PM org.apache.catalina.core.StandardContext start
+Nov 02, 2017 6:07:01 PM org.apache.catalina.core.StandardContext start
 SEVERE: Error in resourceStart()
-Nov 02, 2017 5:53:21 PM org.apache.coyote.http11.Http11Protocol pause
+Nov 02, 2017 6:07:01 PM org.apache.coyote.http11.Http11Protocol pause
 INFO: http11protocol.pause
-Nov 02, 2017 5:53:22 PM org.apache.catalina.core.StandardService stop
+Nov 02, 2017 6:07:02 PM org.apache.catalina.core.StandardService stop
 INFO: standardService.stop.name
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testJsps" time="1.04">
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testJsps" time="1.048">
     <error message="standardPipeline.notStarted" type="LifecycleException">LifecycleException:  standardPipeline.notStarted
 	at org.apache.catalina.core.StandardPipeline.stop(StandardPipeline.java:258)
 	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1107)
@@ -459,7 +459,7 @@ INFO: standardService.stop.name
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testGetWebappConfigFileFromDirectory" time="0.019">
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testGetWebappConfigFileFromDirectory" time="0.004">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -500,12 +500,12 @@ INFO: standardService.stop.name
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
-    <system-err>Nov 02, 2017 5:53:22 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:07:02 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testGetWebappConfigFileFromDirectory]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testBug50826" time="0.001"/>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testBug53301" time="0.005">
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testBug50826" time="0.009"/>
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testBug53301" time="0.019">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.startup.TestTomcat.testBug53301(TestTomcat.java:440)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -542,11 +542,11 @@ INFO: Starting test case [testGetWebappConfigFileFromDirectory]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:53:22 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:07:02 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testBug53301]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testEnableNaming" time="0.019">
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testEnableNaming" time="0.05">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.startup.TestTomcat.testEnableNaming(TestTomcat.java:341)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -583,11 +583,11 @@ INFO: Starting test case [testBug53301]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:53:22 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:07:02 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testEnableNaming]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testLaunchTime" time="1.056">
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testLaunchTime" time="1.041">
     <error message="java.lang.NullPointerException" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: java.lang.NullPointerException
 	at org.apache.catalina.util.CharsetMapper.&lt;init&gt;(CharsetMapper.java:78)
 	at org.apache.catalina.util.CharsetMapper.&lt;init&gt;(CharsetMapper.java:59)
@@ -636,21 +636,21 @@ INFO: Starting test case [testEnableNaming]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:53:22 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:07:02 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testLaunchTime]
-Nov 02, 2017 5:53:22 PM org.apache.coyote.http11.Http11Protocol init
+Nov 02, 2017 6:07:02 PM org.apache.coyote.http11.Http11Protocol init
 INFO: http11protocol.init
-Nov 02, 2017 5:53:22 PM org.apache.catalina.core.StandardService start
+Nov 02, 2017 6:07:02 PM org.apache.catalina.core.StandardService start
 INFO: standardService.start.name
-Nov 02, 2017 5:53:22 PM org.apache.catalina.core.StandardEngine start
+Nov 02, 2017 6:07:02 PM org.apache.catalina.core.StandardEngine start
 INFO: Starting Servlet Engine: Apache Tomcat
-Nov 02, 2017 5:53:22 PM org.apache.coyote.http11.Http11Protocol pause
+Nov 02, 2017 6:07:02 PM org.apache.coyote.http11.Http11Protocol pause
 INFO: http11protocol.pause
-Nov 02, 2017 5:53:23 PM org.apache.catalina.core.StandardService stop
+Nov 02, 2017 6:07:03 PM org.apache.catalina.core.StandardService stop
 INFO: standardService.stop.name
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testLaunchTime" time="1.087">
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testLaunchTime" time="1.042">
     <error message="standardPipeline.notStarted" type="LifecycleException">LifecycleException:  standardPipeline.notStarted
 	at org.apache.catalina.core.StandardPipeline.stop(StandardPipeline.java:258)
 	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1107)
@@ -692,7 +692,7 @@ INFO: standardService.stop.name
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testEnableNamingGlobal" time="0.015">
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testEnableNamingGlobal" time="0.008">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.startup.TestTomcat.testEnableNamingGlobal(TestTomcat.java:377)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -729,11 +729,11 @@ INFO: standardService.stop.name
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:53:23 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:07:03 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testEnableNamingGlobal]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testGetResource" time="0.005">
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testGetResource" time="0.01">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.startup.TestTomcat.testGetResource(TestTomcat.java:401)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -770,14 +770,14 @@ INFO: Starting test case [testEnableNamingGlobal]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:53:23 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:07:03 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testGetResource]
 </system-err>
   </testcase>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testGetCustomContextPerAddContextWithHost" time="0.011"/>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testGetBrokenContextPerAddContext" time="0.006"/>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testGetDefaultContextPerAddContext" time="0.006"/>
-  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testSession" time="0.003">
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testGetCustomContextPerAddContextWithHost" time="0.021"/>
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testGetBrokenContextPerAddContext" time="0.003"/>
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testGetDefaultContextPerAddContext" time="0.008"/>
+  <testcase classname="org.apache.catalina.startup.TestTomcat" name="testSession" time="0.016">
     <error message="javax.servlet.http.HttpServlet" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax.servlet.http.HttpServlet
 	at org.apache.catalina.startup.TestTomcat.testSession(TestTomcat.java:300)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -814,7 +814,7 @@ INFO: Starting test case [testGetResource]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Nov 02, 2017 5:53:23 PM org.apache.catalina.startup.LoggingBaseTest setUp
+    <system-err>Nov 02, 2017 6:07:03 PM org.apache.catalina.startup.LoggingBaseTest setUp
 INFO: Starting test case [testSession]
 </system-err>
   </testcase>
