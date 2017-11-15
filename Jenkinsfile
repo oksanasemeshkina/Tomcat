@@ -9,19 +9,17 @@ pipeline {
         stage('Build') { 
             steps {
 				sh 'cd Tomcat && mvn clean compile assembly:single'	
-				sh 'mvn package'			
+				sh 'cd Tomcat && mvn package'			
             }
         }
         stage('Test'){
             steps {
-				sh 'cd Tomcat'
-                sh 'maven test'
+                sh 'cd Tomcat && maven test'
             }
         }
         stage('Deploy') {
             steps {
-				sh 'cd Tomcat'
-                sh 'java -jar target/lsd-app-1.0-SNAPSHOT-jar-with-dependencies.jar'
+                sh 'cd Tomcat && java -jar target/lsd-app-1.0-SNAPSHOT-jar-with-dependencies.jar'
             }
         }
     }
