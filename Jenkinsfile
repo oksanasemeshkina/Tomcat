@@ -3,12 +3,13 @@ pipeline {
 	
 	tools{
 		maven 'apache-maven-3.5.2'
+		jdk 'java-sdk-1.8'
 	}
     stages {
         stage('Build') { 
             steps { 
-				sh 'mvn clean compile assembly:single'
-				sh 'mvn package' 
+				sh 'mvn package'
+				sh 'mvn clean compile assembly:single'				
             }
         }
         stage('Test'){
