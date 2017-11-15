@@ -7,7 +7,8 @@ pipeline {
 	}
     stages {
         stage('Build') { 
-            steps { 
+            steps {
+				sh 'cd /Tomcat'
 				sh 'mvn package'
 				sh 'mvn clean compile assembly:single'				
             }
