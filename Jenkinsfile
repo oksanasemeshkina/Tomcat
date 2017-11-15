@@ -8,8 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-				sh 'cd Tomcat'
-				sh 'mvn clean compile assembly:single'	
+				sh 'cd Tomcat && mvn clean compile assembly:single'	
 				sh 'mvn package'			
             }
         }
