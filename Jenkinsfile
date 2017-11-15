@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Test'){
             steps {
-                sh 'cd Tomcat && maven test'
+                sh 'cd Tomcat && mvn test'
             }
         }
         stage('Deploy') {
