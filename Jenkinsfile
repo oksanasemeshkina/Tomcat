@@ -8,18 +8,20 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-				sh 'cd /Tomcat'
-				sh 'mvn package'
-				sh 'mvn clean compile assembly:single'				
+				sh 'cd Tomcat'
+				sh 'mvn clean compile assembly:single'	
+				sh 'mvn package'			
             }
         }
         stage('Test'){
             steps {
+				sh 'cd Tomcat'
                 sh 'maven test'
             }
         }
         stage('Deploy') {
             steps {
+				sh 'cd Tomcat'
                 sh 'java -jar target/lsd-app-1.0-SNAPSHOT-jar-with-dependencies.jar'
             }
         }
