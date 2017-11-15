@@ -8,8 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-				sh 'cd Tomcat && mvn clean compile assembly:single'	
-				sh 'cd Tomcat && mvn package'			
+				sh 'cd Tomcat && mvn clean compile'			
             }
         }
         stage('Test'){
@@ -19,7 +18,12 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'cd Tomcat && java -jar target/lsd-app-1.0-SNAPSHOT-jar-with-dependencies.jar'
+                sh 'cd Tomcat && mvn assembly:single'
+            }
+			post {
+                success {
+                    archiveArtifacts(artifacts: 'Tomcat/target/*.jar', allowEmptyArchive: true)
+                }
             }
         }
     }
